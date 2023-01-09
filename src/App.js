@@ -3,7 +3,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
-//import Skills from "./components/Skills";
+import Skills from "./components/Skills";
 
 //Components name and order
 export default function App() {
@@ -11,8 +11,9 @@ export default function App() {
     const renderPage =(currentPage)=>{
         switch(currentPage){
             case "About": return <About/>;
-            case "Project": return <Projects/>;
+            case "Projects": return <Projects/>;
             case "Contact": return <Contact/>;
+            case "Skills": return <Skills/>;
             default: return <About/>
         }
     }

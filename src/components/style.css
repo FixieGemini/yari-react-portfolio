@@ -1,0 +1,151 @@
+:root {
+    --menu: #000000;
+    --bckrnd: #1A2238;
+    --footer: #1d2e53;
+    --brdr: #ff3c00;
+    --acnt: #F4DB7D;
+}
+html {
+    background-color: var(--bckrnd);
+    overflow-x: hidden;
+}
+form {
+    width: 300px;
+}
+p {
+    font-size: 3.4vmin;
+    overflow-y: auto;
+}
+
+.name {
+    font-size: 6vmin;
+
+}
+.navi {
+    font-size: 3.2vmin;
+}
+::-webkit-scrollbar {
+    width: 3px;
+    background-color: transparent
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: var(--brdr);
+}
+/* header */
+.navbg {
+    background-color: var(--menu);
+}
+.menu > li {
+    cursor: pointer;
+}
+.menu > li:hover {
+    text-shadow: whitesmoke 2px 1px 5px;
+}
+.active {
+    border-bottom: 2px solid var(--brdr);
+    text-shadow: var(--brdr) 2px 1px 5px;
+}
+.bgColor{
+    background-color: #1A2238;
+    color: whitesmoke;
+}
+/* footer */
+.footer {
+    position: absolute;
+    width: 100vw;
+    height: 4rem;
+    bottom: 0;
+    background-color: var(--bckrnd);
+    background-image: linear-gradient(var(--bckrnd), #ff3c004f 99%);
+}
+/* assist footer to stay at bottom of page */
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+#content-wrap {
+    padding-bottom: 7rem;
+}
+
+/* center vertically */
+.center {
+    height: 75vh;
+}
+
+.contentbg {
+    background-color:  rgba(0, 0, 0, 0.552);
+}
+
+/* when contact form is invalid */
+.invalid {
+    border: 2px solid red;
+}
+.invalid::placeholder {
+    color: red;
+}
+
+.aboutme {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+/* portfolio */
+.view {
+    padding: 5px;
+    height: 55px;
+    width: 250px;
+}
+.cover :first-child{
+    margin: 10px 0px -5px 0px ;
+}
+.view :hover {
+    border-radius: 5px;
+    background-color: #1d2e53;
+}
+.cover {
+    border-radius: 5px;
+    position: absolute;
+    height: 185px;
+    width: 250px;
+    background-color: #000000d0;
+}
+
+.hideMe {
+    display: none;
+    background-color: transparent;
+}
+
+.hr {
+    opacity: 1;
+    height: 5px;
+    width: 100%;
+    color: transparent;
+    background-color: #ffffff;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/* change at 615px for mobile */
+
+@media screen and (max-width: 610px) {
+    .navbg {
+        flex-direction: column;
+    }
+    .aboutme {
+        flex-direction: column-reverse;
+    }
+    p {
+        border-radius: 5px;
+    }
+    img {
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+}

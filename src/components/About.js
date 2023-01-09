@@ -3,8 +3,11 @@ import React from "react";
 export default function About() {
 
     const introduction ={
-        color: "red"
-    }
+        resize: {
+            height: "66vmin",
+            width: "auto",
+        }
+    };
 
     return (
         <section id="">
