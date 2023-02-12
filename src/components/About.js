@@ -18,27 +18,8 @@ export default function About() {
                         <br className="" />I love building amazing apps!
                     </h1>
                     <p className="">
-                        My name is Yari, and I am an aspiring full stack web developer.
+                        I am an aspiring full stack web developer, from Tucson Arizona.
                     </p>
-                    <div className="">
-                        <a
-                            href="#contact"
-                            className="">
-                            Work With Me
-                        </a>
-                        <a
-                            href="#projects"
-                            className="">
-                            See My Work
-                        </a>
-                    </div>
-                </div>
-                <div className="">
-                    <img
-                        className=""
-                        alt=""
-                        src=""
-                    />
                 </div>
             </div>
         </section>
