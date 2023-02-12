@@ -18,7 +18,7 @@ export default function About() {
                         <br className="" />I love building amazing apps!
                     </h1>
                     <p className="">
-                        I am an aspiring full stack web developer, from Tucson Arizona.
+                        I am an aspiring full stack web developer from Tucson Arizona.
                     </p>
                 </div>
             </div>
