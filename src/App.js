@@ -12,9 +12,9 @@ function App() {
         <>
           <Routes>
             <Route path="/yari-react-portfolio" element={<Home />} />
-            <Route path="/project" element={<Project />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/yari-react-portfolio/project" element={<Project />} />
+            <Route path="/yari-react-portfolio/about" element={<About />} />
+            <Route path="/yari-react-portfolio/contact" element={<Contact />} />
           </Routes> 
         </>
     );
