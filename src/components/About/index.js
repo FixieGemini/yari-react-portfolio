@@ -26,16 +26,16 @@
 //     );
 // }
 
-import React from 'react';
+// import React from 'react';
 
-function About() {
-    return (
-        <main>
-            <h2>About Me</h2>
-            <img className="avatar" src={require('../../assets/images/avatar.jpeg')} alt="avatar"/>
-            <p>Hi, my name is Yari.</p>
-        </main>
-    );
-}
+// function About() {
+//     return (
+//         <main>
+//             <h2>About Me</h2>
+//             <img className="avatar" src={require('../../assets/images/avatar.jpeg')} alt="avatar"/>
+//             <p>Hi, my name is Yari.</p>
+//         </main>
+//     );
+// }
 
-export default About;
+// export default About;
