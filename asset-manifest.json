@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/yari-react-portfolio/static/css/main.0b863a2c.css",
-    "main.js": "/yari-react-portfolio/static/js/main.d29b2c08.js",
+    "main.js": "/yari-react-portfolio/static/js/main.619256d1.js",
     "static/media/intro-bg.jpg": "/yari-react-portfolio/static/media/intro-bg.d25dddaaec9a4bb79bc2.jpg",
     "index.html": "/yari-react-portfolio/index.html",
     "main.0b863a2c.css.map": "/yari-react-portfolio/static/css/main.0b863a2c.css.map",
-    "main.d29b2c08.js.map": "/yari-react-portfolio/static/js/main.d29b2c08.js.map"
+    "main.619256d1.js.map": "/yari-react-portfolio/static/js/main.619256d1.js.map"
   },
   "entrypoints": [
     "static/css/main.0b863a2c.css",
-    "static/js/main.d29b2c08.js"
+    "static/js/main.619256d1.js"
   ]
 }
