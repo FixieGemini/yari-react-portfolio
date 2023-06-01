@@ -32,7 +32,7 @@ const Footer = () => {
 
             <div className="right">
               <h4>About Site</h4>
-              <p>This portfolio was made using html, css, node.js and react.js with the help of Fahimul Kabir and their Tech2etc tutorial. Thank you for checking it out!</p>
+              <p>This portfolio was made using html, css, node and react. Thank you for checking it out!</p>
               <div className="social">
               <FaGithub size={30} style={{ color: "#fff", marginRight: "2rem" }} />
               <FaLinkedin size={30} style={{ color: "#fff", marginRight: "2rem" }} />
