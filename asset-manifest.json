@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/yari-react-portfolio/static/css/main.51dafa5c.css",
-    "main.js": "/yari-react-portfolio/static/js/main.905e6ec5.js",
+    "main.css": "/yari-react-portfolio/static/css/main.63b2ce58.css",
+    "main.js": "/yari-react-portfolio/static/js/main.a2c095e0.js",
     "static/media/appointme.png": "/yari-react-portfolio/static/media/appointme.64a31b7e583611fa4b66.png",
     "static/media/avatar.jpeg": "/yari-react-portfolio/static/media/avatar.06c823f2cb14b44941c1.jpeg",
     "static/media/weathercats.png": "/yari-react-portfolio/static/media/weathercats.4105f20e100971436e6d.png",
     "static/media/sharemyproject.png": "/yari-react-portfolio/static/media/sharemyproject.5481939b00d707b35a23.png",
     "static/media/intro-bg.jpg": "/yari-react-portfolio/static/media/intro-bg.d25dddaaec9a4bb79bc2.jpg",
+    "static/media/YariResume.pdf": "/yari-react-portfolio/static/media/YariResume.506aa7fbb894db56ad5e.pdf",
     "index.html": "/yari-react-portfolio/index.html",
-    "main.51dafa5c.css.map": "/yari-react-portfolio/static/css/main.51dafa5c.css.map",
-    "main.905e6ec5.js.map": "/yari-react-portfolio/static/js/main.905e6ec5.js.map"
+    "main.63b2ce58.css.map": "/yari-react-portfolio/static/css/main.63b2ce58.css.map",
+    "main.a2c095e0.js.map": "/yari-react-portfolio/static/js/main.a2c095e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.51dafa5c.css",
-    "static/js/main.905e6ec5.js"
+    "static/css/main.63b2ce58.css",
+    "static/js/main.a2c095e0.js"
   ]
 }
